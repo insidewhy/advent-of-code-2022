@@ -6,3 +6,4 @@
 | - | - |
 | 1 | ruby |
 | 2 | typescript |
+| 3 | c++ |

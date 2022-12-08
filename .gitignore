@@ -1,2 +1,4 @@
 /*.txt
 /node_modules
+/gcm.cache
+/day*-part*
