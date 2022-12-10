@@ -31,8 +31,8 @@ int main(int size, char *argv[]) {
       std::back_inserter(intersection)
     );
 
-    if (intersection.size() > 1) {
-      throw std::runtime_error("There should only be one item in common between the compartments");
+    if (intersection.size() != 1) {
+      throw std::runtime_error("There should be exactly one item in common between the compartments");
     }
 
     total_score += get_score(intersection[0]);

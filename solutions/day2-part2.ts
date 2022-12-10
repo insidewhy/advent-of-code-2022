@@ -2,7 +2,7 @@
 
 import { readFile } from "fs/promises"
 
-const oppenentCodes = new Map<string, number>([
+const opponentCodes = new Map<string, number>([
   ["A", 0],
   ["B", 1],
   ["C", 2],
@@ -34,7 +34,7 @@ const score = (opponentHand: number, result: Result) => {
   console.log(
     lines
       .map((line) => {
-        const opponentHand = oppenentCodes.get(line[0])
+        const opponentHand = opponentCodes.get(line[0])
         const result = resultCodes.get(line[2])
         if (opponentHand === undefined) throw new Error(`Bad opponent code ${line[0]}`)
         if (result === undefined) throw new Error(`Bad result code ${line[1]}`)
