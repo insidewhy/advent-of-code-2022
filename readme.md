@@ -9,3 +9,4 @@
 | 3 | c++ (c++20) | [part1](./solutions/day3-part1.cc) [part2](./solutions/day3-part2.cc) |
 | 4 | dart | [part1](./solutions/day4-part1.dart) [part2](./solutions/day4-part2.dart) |
 | 5 | scala | [part1](./solutions/day5-part1.scala) [part2](./solutions/day5-part2.scala) |
+| 6 | haskell | [part1](./solutions/day6-part1.hs) [part2](./solutions/day6-part2.hs) |
