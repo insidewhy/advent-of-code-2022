@@ -11,3 +11,27 @@
 | 5 | scala | [part1](./solutions/day5-part1.scala) [part2](./solutions/day5-part2.scala) |
 | 6 | haskell | [part1](./solutions/day6-part1.hs) [part2](./solutions/day6-part2.hs) |
 | 7 | php | [part1](./solutions/day7-part1.php) [part2](./solutions/day7-part2.php) |
+
+## familiar languages
+
+- c#
+- kotlin
+- d
+- rust
+- python
+- crystal
+- go: getting more desperate now
+- java: and more
+- perl 5: and more
+
+## unknown languages
+
+- raku (aka perl 6)
+- carbon
+- purescript
+
+## familiar languages not interested in
+
+- javascript: already did typescript and it's basically a subset
+- c: as above but for c++
+- basic: haven't used it for over 20 years and don't want to
