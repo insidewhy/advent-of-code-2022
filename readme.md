@@ -11,6 +11,7 @@
 | 5 | scala | [part1](./solutions/day5-part1.scala) [part2](./solutions/day5-part2.scala) |
 | 6 | haskell | [part1](./solutions/day6-part1.hs) [part2](./solutions/day6-part2.hs) |
 | 7 | php | [part1](./solutions/day7-part1.php) [part2](./solutions/day7-part2.php) |
+| 8 | rust | [part1](./solutions/day8-part1.rs) [part2](./solutions/day8-part2.rs) |
 
 ## familiar languages
 
