@@ -12,20 +12,19 @@
 | 6 | haskell | [part1](./solutions/day6-part1.hs) [part2](./solutions/day6-part2.hs) |
 | 7 | php | [part1](./solutions/day7-part1.php) [part2](./solutions/day7-part2.php) |
 | 8 | rust | [part1](./solutions/day8-part1.rs) [part2](./solutions/day8-part2.rs) |
+| 9 | crystal | [part1](./solutions/day9-part1.cr) [part2](./solutions/day9-part2.cr) |
 
-## familiar languages
+## familiar languages not yet used
 
 - c#
 - kotlin
 - d
-- rust
 - python
-- crystal
 - go: getting more desperate now
 - java: and more
 - perl 5: and more
 
-## unknown languages
+## unknown languages that might be used
 
 - raku (aka perl 6)
 - carbon
