@@ -3,16 +3,17 @@
 [solutions](./solutions)
 
 | solution | language | sources | fun had out of 5 |
-| - | - | - | - |
-| 1 | ruby | [part1](./solutions/day1-part1.rb) [part2](./solutions/day1-part2.rb) | 4 |
-| 2 | typescript | [part1](./solutions/day2-part1.ts) [part2](./solutions/day2-part2.ts) | 4 |
-| 3 | c++ (c++20) | [part1](./solutions/day3-part1.cc) [part2](./solutions/day3-part2.cc) | 3 |
-| 4 | dart | [part1](./solutions/day4-part1.dart) [part2](./solutions/day4-part2.dart) | 2 |
-| 5 | scala | [part1](./solutions/day5-part1.scala) [part2](./solutions/day5-part2.scala) | 5 |
-| 6 | haskell | [part1](./solutions/day6-part1.hs) [part2](./solutions/day6-part2.hs) | 4 |
-| 7 | php | [part1](./solutions/day7-part1.php) [part2](./solutions/day7-part2.php) | 2 |
-| 8 | rust | [part1](./solutions/day8-part1.rs) [part2](./solutions/day8-part2.rs) | 4 |
-| 9 | crystal | [part1](./solutions/day9-part1.cr) [part2](./solutions/day9-part2.cr) | 5 |
+| -  | - | - | - |
+| 1  | ruby | [part1](./solutions/day1-part1.rb) [part2](./solutions/day1-part2.rb) | 4 |
+| 2  | typescript | [part1](./solutions/day2-part1.ts) [part2](./solutions/day2-part2.ts) | 4 |
+| 3  | c++ (c++20) | [part1](./solutions/day3-part1.cc) [part2](./solutions/day3-part2.cc) | 3 |
+| 4  | dart | [part1](./solutions/day4-part1.dart) [part2](./solutions/day4-part2.dart) | 2 |
+| 5  | scala | [part1](./solutions/day5-part1.scala) [part2](./solutions/day5-part2.scala) | 5 |
+| 6  | haskell | [part1](./solutions/day6-part1.hs) [part2](./solutions/day6-part2.hs) | 4 |
+| 7  | php | [part1](./solutions/day7-part1.php) [part2](./solutions/day7-part2.php) | 2 |
+| 8  | rust | [part1](./solutions/day8-part1.rs) [part2](./solutions/day8-part2.rs) | 4 |
+| 9  | crystal | [part1](./solutions/day9-part1.cr) [part2](./solutions/day9-part2.cr) | 5 |
+| 10 | go | [part1](./solutions/day10-part1.go) [part2](./solutions/day10-part2.go) | 2 |
 
 # General comments
 
@@ -49,17 +50,14 @@ The solution is quite neat and performs very well.
 
 # Future
 
-## familiar languages not yet used
+## familiar languages under consideration
 
 - c#
 - kotlin
 - d
 - python
-- go: getting more desperate now
-- java: and more
-- perl 5: and more
 
-## unknown languages that might be used
+## unknown languages that may be used
 
 - raku (aka perl 6)
 - carbon
@@ -67,9 +65,15 @@ The solution is quite neat and performs very well.
 - nim
 - zig
 - groovy
+- val
+- elixir
+- clojure
+- f#
 
 ## familiar languages not interested in
 
 - javascript: already did typescript and it's basically a subset
 - c: as above but for c++
 - basic: haven't used it for over 20 years and don't want to
+- java: when it comes to the jvm I prefer scala/kotlin
+- perl 5: one of the first languages i learned but not really into it anymore
