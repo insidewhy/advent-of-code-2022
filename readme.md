@@ -2,15 +2,15 @@
 
 | solution | language | sources | fun had out of 5 |
 | -  | - | - | - |
-| 1  | ruby | [part1](./solutions/day1-part1.rb) [part2](./solutions/day1-part2.rb) | 4 |
-| 2  | typescript | [part1](./solutions/day2-part1.ts) [part2](./solutions/day2-part2.ts) | 4 |
-| 3  | c++ (c++20) | [part1](./solutions/day3-part1.cc) [part2](./solutions/day3-part2.cc) | 3 |
-| 4  | dart | [part1](./solutions/day4-part1.dart) [part2](./solutions/day4-part2.dart) | 2 |
-| 5  | scala | [part1](./solutions/day5-part1.scala) [part2](./solutions/day5-part2.scala) | 5 |
-| 6  | haskell | [part1](./solutions/day6-part1.hs) [part2](./solutions/day6-part2.hs) | 4 |
-| 7  | php | [part1](./solutions/day7-part1.php) [part2](./solutions/day7-part2.php) | 2 |
-| 8  | rust | [part1](./solutions/day8-part1.rs) [part2](./solutions/day8-part2.rs) | 4 |
-| 9  | crystal | [part1](./solutions/day9-part1.cr) [part2](./solutions/day9-part2.cr) | 5 |
+| 1  | ruby | [part1](./solutions/day01-part1.rb) [part2](./solutions/day01-part2.rb) | 4 |
+| 2  | typescript | [part1](./solutions/day02-part1.ts) [part2](./solutions/day02-part2.ts) | 4 |
+| 3  | c++ (c++20) | [part1](./solutions/day03-part1.cc) [part2](./solutions/day03-part2.cc) | 3 |
+| 4  | dart | [part1](./solutions/day04-part1.dart) [part2](./solutions/day04-part2.dart) | 2 |
+| 5  | scala | [part1](./solutions/day05-part1.scala) [part2](./solutions/day05-part2.scala) | 5 |
+| 6  | haskell | [part1](./solutions/day06-part1.hs) [part2](./solutions/day06-part2.hs) | 4 |
+| 7  | php | [part1](./solutions/day07-part1.php) [part2](./solutions/day07-part2.php) | 2 |
+| 8  | rust | [part1](./solutions/day08-part1.rs) [part2](./solutions/day08-part2.rs) | 4 |
+| 9  | crystal | [part1](./solutions/day09-part1.cr) [part2](./solutions/day09-part2.cr) | 5 |
 | 10 | go | [part1](./solutions/day10-part1.go) [part2](./solutions/day10-part2.go) | 2 |
 | 11 | raku | [part1](./solutions/day11-part1.raku) [part2](./solutions/day11-part2.raku) | 4 |
 
@@ -21,7 +21,7 @@
 The first problem was very easy, in each case two lines of code.
 There's a lot I like about Ruby but I don't like the implementation of the typesystem that was added in 2020.
 In order to add types all classes/functions etc. must be repeated in a second file where types are allowed.
-- The documentation for types is in another file which leads to much switching back and forth between multiple things.
+- I don't like having to switch back and forth between my code and the type definition file to lookup types, types are such a useful part of the documentation and the code itself that I feel like they should be colocated.
 - "Repeat yourself twice" instead of DRY is kind of sad for a language that is usually expressive.
 
 ## crystal
@@ -70,7 +70,7 @@ For me it's somewhere closer to haskell than go but still very far away from eit
 ## scala
 
 I had so much fun with this one.
-Maybe scala strikes the complexity/readability balance for me.
+Maybe scala strikes the expressiveness/readability balance for me.
 There were a lot of instances where I was really impressed at how readable and tersely I could express things.
 
 ## php

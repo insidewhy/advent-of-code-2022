@@ -3,10 +3,10 @@
 BUILD := g++ -Wall -std=c++20 -fmodules-ts -o
 IMPORTS := -x c++-system-header iostream fstream set exception vector algorithm
 
-default: day3-part1 day3-part2
+default: day03-part1 day03-part2
 
-day3-part1: solutions/day3-part1.cc
+day03-part1: solutions/day03-part1.cc
 	${BUILD} $@ $^ ${IMPORTS} && ./$@
 
-day3-part2: solutions/day3-part2.cc
+day03-part2: solutions/day03-part2.cc
 	${BUILD} $@ $^ ${IMPORTS} && ./$@
