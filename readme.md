@@ -13,12 +13,13 @@
 | 9  | crystal | [part1](./solutions/day09-part1.cr) [part2](./solutions/day09-part2.cr) | 5 |
 | 10 | go | [part1](./solutions/day10-part1.go) [part2](./solutions/day10-part2.go) | 2 |
 | 11 | raku | [part1](./solutions/day11-part1.raku) [part2](./solutions/day11-part2.raku) | 4 |
+| 12 | zig | [part1](./solutions/day12-part1.zig) [part2](./solutions/day12-part2.zig) | 3 |
 
 # General comments
 
 ## ruby
 
-The first problem was very easy, in each case two lines of code.
+The first problem was very easy: three lines of code for both days.
 There's a lot I like about Ruby but I don't like the implementation of the typesystem that was added in 2020.
 In order to add types all classes/functions etc. must be repeated in a second file where types are allowed.
 - I don't like having to switch back and forth between my code and the type definition file to lookup types, types are such a useful part of the documentation and the code itself that I feel like they should be colocated.
@@ -35,7 +36,7 @@ Crystal is a compiled version of Ruby where the types are colocated, it's not 10
 
 I use TypeScript more than any other language in the last few years so it was easy to write this without having to reference any documentation.
 The problem wasn't very hard but there were two small areas where you could use modular arithmetic in a fun way.
-I checked some other solutions online and many people just used a lookup table where looked up each line from the file against a score table and this works for both parts since there are only six combinations of hands.
+I checked some other solutions online and many people just used a lookup table with one entry containing the score for each of the six possible hands.
 
 ## c++
 
@@ -104,6 +105,13 @@ It's doubtful I'll get to use it again in the future due to its niche popularity
 One thing I really liked about part 2 of this solution is that it relies on your knowledge of modular arithmetic in order to produce a solution that runs in a reasonable length of time.
 Without applying this then you'll really start hitting the performance limits of big integers and the code will take several days to provide a solution.
 
+# zig
+
+Zig seems like a pretty nice language, it's like C with metaprogramming and a few extra nice things such as the `defer` keyword (which I first encountered in d) and a neat way of handling errors.
+You metaprogram zig in zig itself.
+Unfortunately I didn't get to do any metaprogramming with a problem this simple.
+This solution was easy once I worked out that I had to start from the destination instead of the source.
+
 # Future
 
 ## familiar languages under consideration
@@ -115,15 +123,22 @@ Without applying this then you'll really start hitting the performance limits of
 
 ## unknown languages that may be used
 
-- carbon
+- f#
 - purescript
 - nim
-- zig
 - groovy
-- val
 - elixir
 - clojure
-- f#
+
+## some interesting languages not ready for use
+
+- carbon
+- val
+
+## some interesting languages that are abandoned
+
+- nemerle
+- boo
 
 ## familiar languages not interested to use
 
