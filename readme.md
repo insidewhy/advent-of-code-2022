@@ -14,6 +14,7 @@
 | 10 | go | [part1](./solutions/day10-part1.go) [part2](./solutions/day10-part2.go) | 2 |
 | 11 | raku | [part1](./solutions/day11-part1.raku) [part2](./solutions/day11-part2.raku) | 4 |
 | 12 | zig | [part1](./solutions/day12-part1.zig) [part2](./solutions/day12-part2.zig) | 3 |
+| 13 | f# | [part1](./solutions/day13-part1.fs) [part2](./solutions/day13-part2.fs) | 4 |
 
 # General comments
 
@@ -112,6 +113,11 @@ You metaprogram zig in zig itself.
 Unfortunately I didn't get to do any metaprogramming with a problem this simple.
 This solution was easy once I worked out that I had to start from the destination instead of the source.
 
+# f#
+
+f# was fun to use, it's a lot like haskell but maybe a little more pragmatic.
+Most of the code is parsing a recursive data structure (which amused me as in python I could just `eval` each line to build the list since the syntax used in the file matches python's list notation).
+
 # Future
 
 ## familiar languages under consideration
@@ -123,7 +129,6 @@ This solution was easy once I worked out that I had to start from the destinatio
 
 ## unknown languages that may be used
 
-- f#
 - purescript
 - nim
 - groovy
