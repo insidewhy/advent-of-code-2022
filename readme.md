@@ -93,7 +93,7 @@ It forced me to use integers to index vectors instead of iterators which made so
 
 ## raku
 
-raku is the successor to perl 5 which I learned when I was 16 (after Metacomco basic on the Atari ST and bash).
+raku is the successor to perl 5, the third language I learned quite some time ago (after Metacomco basic on the Atari ST and bash).
 I haven't used perl in about 15 years and I think it was helpful having some distance because, while raku is reminiscent of perl 5, it's unmistakeably a very different language.
 I thought it would be fun to use it for solution 11 as it requires a lot of parsing and raku has the ability to define grammars built into the language (it operates much like a very advanced version of regexes).
 There were things I loved about raku and things that confounded me.
@@ -116,7 +116,9 @@ This solution was easy once I worked out that I had to start from the destinatio
 # f#
 
 f# was fun to use, it's a lot like haskell but maybe a little more pragmatic.
-Most of the code is parsing a recursive data structure (which amused me as in python I could just `eval` each line to build the list since the syntax used in the file matches python's list notation).
+The pipeline operator is great and makes for much readable code than chaining things together with `$` in haskell.
+Most of the code for these solutions is involved with parsing the recursive data structure (which amused me as in python I could just `eval` each line to build the list since the syntax used in the file matches python's list notation).
+I wish that the compiler would repeat the line of the error with some kind of indicator pointing at the location, instead it just prints the row and column, since I didn't hook the compiler up to my editor it was harder than it could be to find what was wrong.
 
 # Future
 
