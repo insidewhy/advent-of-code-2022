@@ -15,6 +15,7 @@
 | 11 | raku | [part1](./solutions/day11-part1.raku) [part2](./solutions/day11-part2.raku) | 4 |
 | 12 | zig | [part1](./solutions/day12-part1.zig) [part2](./solutions/day12-part2.zig) | 3 |
 | 13 | f# | [part1](./solutions/day13-part1.fs) [part2](./solutions/day13-part2.fs) | 4 |
+| 14 | python | [part1](./solutions/day14-part1.py) [part2](./solutions/day14-part2.py) | 3 |
 
 # General comments
 
@@ -120,6 +121,14 @@ The pipeline operator is great and makes for much readable code than chaining th
 Most of the code for these solutions is involved with parsing the recursive data structure (which amused me as in python I could just `eval` each line to build the list since the syntax used in the file matches python's list notation).
 I wish that the compiler would repeat the line of the error with some kind of indicator pointing at the location, instead it just prints the row and column, since I didn't hook the compiler up to my editor it was harder than it could be to find what was wrong.
 
+# python
+
+I've used python a great deal over the last 15 or so years.
+There's a lot to like about it, typing is a highlight for me: annotations + pluggable typesystem.
+There's also some limitations that don't make sense to me, for example lambda functions are only allowed to contain one expression.
+It's annoying to be forced to name every non-trivial function which can make writing code in a functional style needlessly verbose.
+For this solution, being able to use tuples as value types was helpful as I only needed a set of two-tuples as my data structure and didn't have to encode the coordinates.
+
 # Future
 
 ## familiar languages under consideration
@@ -127,7 +136,6 @@ I wish that the compiler would repeat the line of the error with some kind of in
 - c#
 - kotlin
 - d
-- python
 
 ## unknown languages that may be used
 
