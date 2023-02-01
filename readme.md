@@ -16,6 +16,7 @@
 | 12 | zig | [part1](./solutions/day12-part1.zig) [part2](./solutions/day12-part2.zig) | 3 |
 | 13 | f# | [part1](./solutions/day13-part1.fs) [part2](./solutions/day13-part2.fs) | 4 |
 | 14 | python | [part1](./solutions/day14-part1.py) [part2](./solutions/day14-part2.py) | 3 |
+| 15 | c# | [part1](./solutions/day15-part1.cs) [part2](./solutions/day15-part2.cs) | 3 |
 
 # General comments
 
@@ -133,7 +134,6 @@ For this solution, being able to use tuples as value types was helpful as I only
 
 ## familiar languages under consideration
 
-- c#
 - kotlin
 - d
 
