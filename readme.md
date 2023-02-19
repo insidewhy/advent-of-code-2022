@@ -130,6 +130,15 @@ There's also some limitations that don't make sense to me, for example lambda fu
 It's annoying to be forced to name every non-trivial function which can make writing code in a functional style needlessly verbose.
 For this solution, being able to use tuples as value types was helpful as I only needed a set of two-tuples as my data structure and didn't have to encode the coordinates.
 
+# c#
+
+C# is a nice solid language that's getting better all the time.
+It's not exactly exciting but it feels pragmatic.
+I'd have liked to been able to use c# 10 but mono only goes up to C# 6 with partial support for 7.
+Using the `csharp` program in the shebang and adding `const` values as top-level expressions led to their values being `0` instead of what was written which is a pretty silly mono bug.
+I suppose I should have used Microsoft's implementation instead.
+This problem wasn't that hard, without writing a utility class for dealing with lists of ranges then the solution to part 2 isn't going to run in an acceptable amount of time.
+
 # Future
 
 ## familiar languages under consideration
